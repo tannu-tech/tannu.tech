@@ -67,3 +67,17 @@ button:focus-visible {
   }
 } */
 
+.container{
+  position: relative;
+}
+.hello{
+  z-index: -1;
+}
+
+#me{
+  position: absolute;
+ top:50%;
+ left: 50%;
+  transform: translate(-50%, -50%) scale(.8);
+  z-index: -1;
+}
