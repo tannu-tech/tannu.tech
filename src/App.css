@@ -15,9 +15,11 @@ body{
 .homepage {
   text-align: center;
   display: flex;
-  flex-direction: column;
+  
   justify-content: center;
   align-items: center;
+  height: 100vh;
+ 
 }
 
 .homepage h1 {
@@ -57,9 +59,15 @@ body{
   text-align: center;
   /* margin: 150px 50px; */
   margin-bottom: 40px;
-  font-size: 3rem;
-  
-
+  font-size: 3.5rem;
+}
+.myprojectsection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 34px;
+ height: 100vh;
 }
 
 
@@ -80,26 +88,50 @@ body{
 .projects div {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
-  font-size: 2rem;
-  height: 200px;
-  width: 200px;
+  justify-content: space-around;
+  font-size: 1rem;
   border: 1px solid;
-  padding: 42px;
+  padding: 20px 35px;
   border-radius: 20px;
+  width: 150px;
+  height: 120px;
+  background-color: black;
+  color: white;
 }
+
+.projects div button{
+  width: 100%;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 90px;
+  outline: none;
+  border: none;
+}
+
+
+
+.projects h2{
+ font-size: 1.1rem;
+}
+.projects div button a{
+  text-decoration: none;
+  color: black;
+}
+
+
 .projects {
   display: flex;
   text-align: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   gap: 50px;
+  margin: 50px 190px;
 }
 
 /* CSS FOR NAVABAR */
-nav {
-  bottom: 8%;
+#lappinav {
+  bottom: 5%;
   position: fixed;
   background: black;
   color: white;
@@ -108,58 +140,157 @@ nav {
   font-family: "Bricolage Grotesque", sans-serif;
 
 }
-ul {
+#lappinav {
+  bottom: 5%;
+  position: fixed;
+  background: black;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 54px;
+  font-family: "Bricolage Grotesque", sans-serif;
+
+}
+ ul {
   /* text-decoration: none; */
   display: flex;
-  gap: 84px;
+  gap: 40px;
   font-size: 1.3rem;
   font-weight:500;
 }
-li {
+  li {
+
+  list-style: none;
+}
+
+@media screen and (max-width :600px) {
+
+  #lappinav{
+    display: none;
+  }
+  
+
+  .toggel {
+    background: black;
+    width: 48px;
+    height: 48px;
+    /* float: left; */
+    position: absolute;
+    right: 0%;
+    top: 4%;
+    border-radius: 90px 0px 0px 90px;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease-out all;
+    
+}
+.togglekabap{
+  position: absolute;
+    right: 0%;
+    top: 4%;
+  width: 48px;
+  height: 48px;
+  background-color: red;
+}
+.toggel span {
+  color: white;
+  text-align: center;
+ 
+  display: flex;
+  /* line-height: 46px; */
+}
+.fulltoggel{
+  background: black;
+    width:90%;
+    height: 48px;
+    /* float: left; */
+    position: absolute;
+    right: 0%;
+    top: 4%;
+    border-radius: 26px;
+    transition: 1s ease-out all;
+   
+}
+
+#phonenav{
+/* background-color: blueviolet; */
+z-index: 999;
+}
+
+nav#phonenav li {
+  margin: 11px  -69px  16px 15px;
+  color: white;
+  /* font-size: 25px; */
+}
+
+    
+nav#phonenav ul li span {
+  font-size: 1.4rem;
+}
+nav#phonenav  ul {
+  /* text-decoration: none; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 90px;
+  margin-left: 20px;
+  font-size: 1.3rem;
+  font-weight:500;
+}
+nav#phonenav  li {
 
   list-style: none;
 }
 
 
-
-@media screen and (min-width :600px) {
-
-  body{
-
-  }
-
   #me {
-   position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    position: relative;
+    height: 322px;
+    margin-top: -25px;
+}
+  .homepage{
+
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    transition: 0.5s ease-out all;
+    overflow: hidden;
   }
   
   .homepage h1{
     display: flex;
     justify-content: space-around;
-  
+ font-size: 2.5rem;
 
   }
   .homepage p{
   
-    font-size: 1.5rem;
+    font-size: 1rem;
     
   }
+
   .homepage {
     display: flex;
-    flex-direction: row;
 
-    height: 90vh;
+
+
     width: 100%;
-    font-size: 4rem;
-
+    font-size: 2rem;
+    overflow: hidden;
     justify-content: space-around;
 }
 
-#me {
+.homepage h3 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1.4rem;
+  color: black;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 99;
-  position: relative;
-  height: 500px;
+  font-weight: 400;
 }
+
 }

@@ -4,21 +4,21 @@ import React  from "react";
 const projects = [
     {
       id: 1,
-      title: 'Readaa',
+      title: 'Count system',
       icons : '📚',
-      link : 'https://readaa.com'
+      link : 'https://simplejsapp1.netlify.app/'
     },
     {
       id: 2,
-      title: 'abx company',
-      icons : '👔',
-      link : 'https://readaa.com'
+      title: 'Fashion',
+      icons : '👗',
+      link : 'https://ridashopping.netlify.app'
     },
     {
       id: 3,
-      title: 'Naturify',
-      icons : '🌿',
-      link : 'https://readaa.com'
+      title: 'Game',
+      icons : '🎮',
+      link : 'https://tannugame.netlify.app/home'
     },
       {
       id: 1,
@@ -28,15 +28,15 @@ const projects = [
     },
     {
       id: 2,
-      title: 'abx company',
-      icons : '👔',
-      link : 'https://readaa.com'
+      title: 'Calculater',
+      icons : '🧮',
+      link : 'https://tannuclcs.netlify.app'
     },
     {
       id: 3,
-      title: 'Naturify',
-      icons : '🌿',
-      link : 'https://readaa.com'
+      title: 'Scroe Borde',
+      icons : '🎲',
+      link : 'https://scorebordt.netlify.app/'
     }
   ]
   
@@ -55,11 +55,12 @@ const projects = [
 
 export default function Projects() {
     return (
+      <div className="container">
         <div className="myprojectsection">
             <h3>My Projects</h3>
             <div className="projects">
                 {projectcard}
-            </div>
+            </div></div>
         </div>
     )
 }
