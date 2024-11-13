@@ -24,7 +24,8 @@ function changeicon(){
             </div>
                
 
-                    {fullbar ? <div className="fulltoggel animate__animated animate__fadeInRight">                
+                    {fullbar ? <div className="fulltoggel "> 
+                        {/* animate__animated animate__fadeInRight                */}
                         <nav id="phonenav">
                         <ul>
                             <li><span class="material-symbols-outlined">home</span></li>

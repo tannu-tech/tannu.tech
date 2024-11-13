@@ -179,12 +179,15 @@ body{
     display: none;
   }
   
+  body{
+    overflow: hidden;
+  }
   
 
   .toggel {
     background: black;
     width: 48px;
-    height: 48px;
+    height: 60px;
     /* float: left; */
     position: absolute;
     right: 0%;
@@ -197,6 +200,8 @@ body{
     transition: 0.5s ease-out all;
     
 }
+
+
 .togglekabap{
   position: absolute;
     right: 0%;
@@ -212,32 +217,40 @@ body{
   display: flex;
   /* line-height: 46px; */
 }
-.fulltoggel{
+.fulltoggel {
   background: black;
-    width:90%;
-    height: 48px;
-    /* float: left; */
-    position: absolute;
-    right: 0%;
-    top: 4%;
-    border-radius: 26px;
-    transition: 1s ease-out all;
-   
+  width: 90%;
+  /* float: left; */
+  position: absolute;
+  right: 1%;
+  top: 4%;
+  border-radius: 26px;
+  transition: 1s ease-out all;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 60px;
 }
 
 #phonenav{
 /* background-color: blueviolet; */
 z-index: 999;
 display: block;
+/* background: black; */
+    color: white;
+  
 }
 
 nav#phonenav li {
-  margin: 11px  -69px  16px 15px;
+  margin: 16px  -69px  17px 14px;
   color: white;
   display: block;
   /* font-size: 25px; */
+  line-height: 23px;
+  /* margin: -23px; */
 }
-
     
 nav#phonenav ul li span {
   font-size: 1.7rem;
@@ -251,6 +264,8 @@ nav#phonenav  ul {
   margin-left: 20px;
   font-size: 1.7rem;
   font-weight:500;
+  /* justify-content: center; */
+
 }
 nav#phonenav  li {
 
@@ -299,6 +314,8 @@ nav#phonenav  li {
     font-size: 2rem;
     overflow: hidden;
     justify-content: space-around;
+    height: 100vh;
+    
 }
 
 .homepage h3 {
