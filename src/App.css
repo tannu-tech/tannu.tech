@@ -19,6 +19,7 @@ body{
   justify-content: center;
   align-items: center;
   height: 100vh;
+  overflow: hidden;
  
 }
 
@@ -100,6 +101,7 @@ body{
   color: white;
 }
 
+
 .projects div button{
   width: 100%;
   padding: 10px 20px;
@@ -150,6 +152,11 @@ body{
   font-family: "Bricolage Grotesque", sans-serif;
 
 }
+
+#phonenav ul {
+  
+  display: none;
+}
  ul {
   /* text-decoration: none; */
   display: flex;
@@ -171,6 +178,7 @@ body{
   #lappinav{
     display: none;
   }
+  
   
 
   .toggel {
@@ -220,26 +228,28 @@ body{
 #phonenav{
 /* background-color: blueviolet; */
 z-index: 999;
+display: block;
 }
 
 nav#phonenav li {
   margin: 11px  -69px  16px 15px;
   color: white;
+  display: block;
   /* font-size: 25px; */
 }
 
     
 nav#phonenav ul li span {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
 }
 nav#phonenav  ul {
   /* text-decoration: none; */
   display: flex;
   /* justify-content: center; */
   align-items: center;
-  gap: 90px;
+  gap: 84px;
   margin-left: 20px;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   font-weight:500;
 }
 nav#phonenav  li {
@@ -264,12 +274,13 @@ nav#phonenav  li {
     flex-direction: column;
     transition: 0.5s ease-out all;
     overflow: hidden;
+    width: 100%;
   }
   
   .homepage h1{
     display: flex;
     justify-content: space-around;
- font-size: 2.5rem;
+ font-size: 3.3rem;
 
   }
   

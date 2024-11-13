@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home() {
 
-const [fullbar, setfullbar] = React.useState(true)
+const [fullbar, setfullbar] = React.useState(false)
 
 function changeicon(){
     setfullbar(fullbar => !fullbar)
