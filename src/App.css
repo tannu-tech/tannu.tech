@@ -161,6 +161,10 @@ body{
 
   list-style: none;
 }
+.toggel {
+  display: none;
+}
+
 
 @media screen and (max-width :600px) {
 
@@ -268,6 +272,7 @@ nav#phonenav  li {
  font-size: 2.5rem;
 
   }
+  
   .homepage p{
   
     font-size: 1rem;
