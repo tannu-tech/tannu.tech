@@ -8,6 +8,7 @@ const projects = [
       icons : '📚',
       link : 'https://simplejsapp1.netlify.app/'
     },
+  
     {
       id: 2,
       title: 'Fashion',
