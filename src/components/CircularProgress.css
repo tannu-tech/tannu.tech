@@ -1,0 +1,51 @@
+.circle-container {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* White border around the circle */
+    position: relative;
+    background: conic-gradient(
+      green calc(var(--percent) * 1%),  /* Dynamic green color fill */
+      lightgray calc(var(--percent) * 1%) 100% /* Rest of the circle as light gray */
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin: 0 auto;
+  
+  }
+  
+  .circle span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: absolute;
+    color: rgb(255, 255, 255);
+  }
+  
+  .circle::before {
+    content: '';
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: black; /* Inner white circle to create the "ring" effect */
+    position: absolute;
+  }
+  

@@ -3,13 +3,16 @@ import Home from './components/Home'
 
 
 import './App.css'
+import './Skill.css'
 import Projects from './components/Projects'
+import Skiils from './components/Skills'
 
 function App() {
 return (
   <>
     <Home />
     <Projects/>
+    <Skiils/>
    
   </>
 )

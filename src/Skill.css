@@ -1,0 +1,96 @@
+
+  
+ p.nn {
+    color: wheat;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.progress-circle span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: absolute;
+    color: white;
+}
+  .progress-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+ border: 4px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  p.nn {
+    color: wheat;
+    font-size: 17px;
+}
+
+.progress-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+    width: 322px;
+}
+  
+  .progress-circle span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: absolute;
+  }
+  
+
+  .head-skiils p {
+    font-size: 15px;
+    font-size: 20px;
+    /* margin: 33px; */
+    margin-bottom: 96px;
+}
+
+.box-skiils {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  /* background: black; */
+  width: 80%;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+  
+  .main-line h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    margin-left: 20px;
+    
+  }
+  progress.file {
+    width: 300px; /* Adjust the width */
+    height: 13px; /* Adjust the height */
+    appearance: none; 
+    margin-left: 18px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Add rounded corners to the progress element */
+    overflow: hidden; /* Ensures the inner progress doesn't overflow the border */
+  }
+  
+  progress.file::-webkit-progress-value {
+    background-color: rgb(18, 197, 27); /* Color of the progress fill */
+    
+  }
+  
+  progress.file::-moz-progress-bar {
+    background-color: red; /* Firefox: Color of the progress fill */
+  }
+  .myskills {
+  height: 125vh;
+  background-color: black;
+  color: #fafafa;
+}
+

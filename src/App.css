@@ -173,6 +173,13 @@ body{
 }
 
 
+  
+
+
+
+
+
+
 @media screen and (max-width :600px) {
 
   #lappinav{
@@ -328,4 +335,24 @@ nav#phonenav  li {
   font-weight: 400;
 }
 
+
+/* .myskills {
+  height: 100vh;
+}
+
+.myskills .wave{
+  max-width: 100%;
+} */
+
+
+
+}
+.myskills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* padding: 59px; */
+  font-size: 3rem;
+  height: 100vh;
 }
