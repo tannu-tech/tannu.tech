@@ -9,7 +9,7 @@
     font-size: 1.2rem;
     font-weight: bold;
     position: absolute;
-    color: white;
+    color: rgb(201, 25, 25);
 }
   .progress-circle {
     width: 100px;
@@ -85,10 +85,7 @@
     background-color: rgb(18, 197, 27); /* Color of the progress fill */
     
   }
-  
-  progress.file::-moz-progress-bar {
-    background-color: red; /* Firefox: Color of the progress fill */
-  }
+
   .myskills {
   height: 125vh;
   background-color: black;

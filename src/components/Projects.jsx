@@ -15,6 +15,11 @@ const projects = [
       icons : '👗',
       link : 'https://ridashopping.netlify.app'
     },
+    
+// new
+
+// end
+
     {
       id: 3,
       title: 'Game',

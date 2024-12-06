@@ -15,7 +15,7 @@
     position: relative;
     background: conic-gradient(
       green calc(var(--percent) * 1%),  /* Dynamic green color fill */
-      lightgray calc(var(--percent) * 1%) 100% /* Rest of the circle as light gray */
+      rgb(255, 255, 255) calc(var(--percent) * 1%) 100% /* Rest of the circle as light gray */
     );
     display: flex;
     align-items: center;

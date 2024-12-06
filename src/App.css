@@ -405,3 +405,7 @@ nav#phonenav  li {
   font-size: 3rem;
   height: 100vh;
 }
+/* conatct */
+video {
+  width: 210vh;
+}
