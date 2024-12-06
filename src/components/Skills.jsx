@@ -26,7 +26,7 @@ function Skiils()  {
     <>
   <div className="myskills">
 
-    <h2>My Skills</h2>
+    <h2 className="medio">My Skills</h2>
   
     {/* < img src="myskillwave.png"    className="wave"    alt="" /> */}
 
