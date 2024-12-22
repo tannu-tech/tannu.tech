@@ -1,0 +1,109 @@
+
+/* 
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #0e1a35;
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow: hidden;
+} */
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 6, 52);
+    text-align: center;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+}
+.year {
+    font-size: 5rem;
+    font-weight: bold;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+    z-index: 1;
+}
+.balloon {
+    /* background-color: aqua; */
+    position: absolute;
+   width: 100px;
+   margin-bottom: 100px;
+   margin-left: 200px;
+    height: auto;
+    animation: floatBalloon 5s ease-in-out forwards;
+    opacity: 0;
+}
+.newYearText {
+    color: white;
+    font-size: 4rem;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    margin-top: 10px;
+}
+@keyframes floatBalloon {
+    0% {
+    transform: translate(150vw, 80vh) scale(0.2);
+    opacity: 0;
+    }
+    50% {
+    opacity: 1;
+    }
+    100% {
+    transform: translate(100, -80px) scale(1);
+    opacity: 1;
+    }
+}
+
+/* @keyframes floatThread {
+    0% {
+        transform: translateY(300px);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-00px);
+        opacity: 1;
+    }
+} */
+#balloon img{
+  
+height: 250vh;
+width: 100px;
+}
+@media (max-width: 768px) {
+
+    body{
+        background-color: red;
+    }
+    .year {
+        font-size: 3rem;
+    }
+
+    .balloon {
+
+        
+width: 70px;
+margin-top: 60px;
+}
+
+    .happy-text {
+        font-size: 2.3rem;
+    }
+
+    .thread {
+        height: 150px;
+    }
+}
+

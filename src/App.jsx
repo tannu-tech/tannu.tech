@@ -7,14 +7,19 @@ import './Skill.css'
 import Projects from './components/Projects'
 import Skiils from './components/Skills'
 import Contact from './components/Contact'
+import Don from './components/Don'  
+import Happy from './components/Happy'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
 return (
   <>
-    <Home />
-    <Projects/>
-    <Skiils/>
-    <Contact/>
+
+    <Routes>
+      <Route path="/" element={<Don />} />
+      <Route path="/hny" element={<Happy />} />
+    </Routes>
+    
    
   </>
 )
